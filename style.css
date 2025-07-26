@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: var(--bg-color, #1e1e1e);
+  color: var(--text-color, white);
+  text-align: center;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+.container {
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #f5b342;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.perfil:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.2em;
+}
+
+.links a,
+.links button {
+  display: block;
+  margin: 15px auto;
+  background: #f5b342;
+  color: #1e1e1e;
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 300px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.links a:hover,
+.links button:hover {
+  background: #ffcc00;
+}
+
+.botoes {
+  margin-top: 20px;
+}
+
+.botoes button {
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.botoes button:hover {
+  background: #555;
+}
+
+.projetos {
+  margin-top: 40px;
+}
+
+.card {
+  background: #2c2c2c;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  max-width: 90%;
+  color: white;
+  text-align: left;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #f5b342;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: #1e1e1e;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.card a:hover {
+  background: #ffcc00;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #ccc;
+}

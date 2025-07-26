@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rico Borges | Desenvolvedor Web</title>
+  <meta name="description" content="Página de apresentação de Rico Borges, desenvolvedor web em formação, com links úteis, projetos e contatos.">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <main class="container">
+    <img src="rico.jpg" alt="Foto de Rico Borges" class="perfil">
+    <h1 id="nome">Rico Borges</h1>
+    <p id="bio">Desenvolvedor Web em formação • Criativo • Autodidata</p>
+
+    <section class="links">
+      <a href="https://github.com/rikoborges" target="_blank">🌐 GitHub</a>
+      <a href="https://linkedin.com/in/ricardoddborges" target="_blank">💼 LinkedIn</a>
+      <a href="https://wa.me/33600000000" target="_blank">📱 WhatsApp</a>
+      <button onclick="copiarEmail()">📩 Copiar E-mail</button>
+      <a href="https://drive.google.com/SeuCV" target="_blank">📄 Ver meu CV</a>
+    </section>
+
+    <div class="botoes">
+      <button id="botaoTema" onclick="alternarTema()">🌙 Modo Claro</button>
+      <button onclick="alternarIdioma()">🌐 PT / EN</button>
+    </div>
+
+    <section class="projetos">
+      <h2>📁 Projetos</h2>
+      <div class="card">
+        <h3>Mini Portfólio</h3>
+        <p>Site com troca de tema, idioma e estilo responsivo.</p>
+        <a href="https://github.com/rikoborges/bio" target="_blank">🔗 Ver Projeto</a>
+      </div>
+      <div class="card">
+        <h3>Financeiro em Python</h3>
+        <p>Sistema de finanças pessoais em terminal (versão inicial).</p>
+        <a href="https://github.com/rikoborges/financeiro" target="_blank">🔗 Ver Projeto</a>
+      </div>
+    </section>
+
+    <footer>
+      <p id="footer">Site criado por mim com HTML, CSS e JS 👨‍💻</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
